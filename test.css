@@ -1,0 +1,58 @@
+.displayModes
+{
+    float:left;
+    width:200px;
+    padding-top:2px;
+    padding-left: 2px;  
+    text-align: center;
+}
+
+.searchPanel
+{
+    float: left;
+    width:200px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.panel
+{
+    font-family: Arial, Verdana, Sans-serif;
+    font-size: 12px;
+    padding-top:10px;
+    width:600px;
+}
+
+
+// this stuff under this is test stuff
+
+
+
+.container
+{
+    font-family: Arial, Verdana, Sans-serif;
+    font-size: 12px;
+    padding-top:10px;
+    width:600px;
+}
+
+.inlineList {
+   display: flex;
+   flex-direction: row;
+   /* Below sets up your display method: flex-start|flex-end|space-between|space-around */
+   justify-content: flex-start; 
+   /* Below removes bullets and cleans white-space */
+   list-style: none;
+   padding: 0;
+   /* Bonus: forces no word-wrap */
+   white-space: nowrap;
+ }
+ 
+.line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
